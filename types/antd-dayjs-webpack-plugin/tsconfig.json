@@ -18,6 +18,6 @@
     },
     "files": [
         "index.d.ts",
-        "mini-css-extract-plugin-tests.ts"
+        "antd-dayjs-webpack-plugin-tests.ts"
     ]
 }

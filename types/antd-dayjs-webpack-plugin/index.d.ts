@@ -1,9 +1,9 @@
-// Type definitions for antd-dayjs-webpack-plugin
+// Type definitions for antd-dayjs-webpack-plugin 1.0
 // Project: https://github.com/ant-design/antd-dayjs-webpack-plugin
 // Definitions by: Lanzhi <https://github.com/lanzhi-lee>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-import { Compiler } from 'webpack'
+import { Compiler } from 'webpack';
 
 /**
  * A webpack plugin for Day.js.
@@ -11,12 +11,12 @@ import { Compiler } from 'webpack'
  * Configuration Detail: https://github.com/ant-design/antd-dayjs-webpack-plugin
  */
 declare class AntdDayjsWebpackPlugin {
-  constructor(options?: AntdDayjsWebpackPlugin.PluginOptions)
+  constructor(options?: AntdDayjsWebpackPlugin.PluginOptions);
 
   /**
    * Apply the plugin
    */
-  apply(compiler: Compiler): void
+  apply(compiler: Compiler): void;
 }
 
 declare namespace AntdDayjsWebpackPlugin {
@@ -24,10 +24,10 @@ declare namespace AntdDayjsWebpackPlugin {
     /**
      * By default, the preset is 'antd'
      */
-    preset?: 'antd' | 'antdv3'
-    plugins?: string[]
-    replaceMoment?: boolean
+    preset?: 'antd' | 'antdv3';
+    plugins?: string[];
+    replaceMoment?: boolean;
   }
 }
 
-export = AntdDayjsWebpackPlugin
+export = AntdDayjsWebpackPlugin;
